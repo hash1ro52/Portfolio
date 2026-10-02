@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WEB1 HTML, CSS and layout exercises in Oleksandr Vrahaliev's student portfolio.">
+  <title>Portfolio | Oleksandr Vrahaliev</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Oleksandr Vrahaliev home"><span class="brand-mark" aria-hidden="true">OV</span><span class="brand-name">Oleksandr V.</span></a>
+      <nav aria-label="Main navigation"><ul class="nav-list"><li><a href="index.html">About Me</a></li><li><a href="cv.html">CV</a></li><li><a href="portfolio.html" aria-current="page">Portfolio</a></li></ul></nav>
+    </div>
+  </header>
+  <main id="main-content" class="container">
+    <div class="page-heading">
+      <p class="eyebrow">Small projects · practical learning</p>
+      <h1>My <span class="accent">portfolio.</span></h1>
+      <p class="intro">Exercises from WEB1 lessons 01, 02 and 03, showing the steps from basic HTML to CSS styling and responsive layouts.</p>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <img src="images/star-pizza.png" alt="Screenshot of the HTML-only Star Pizza exercise" width="960" height="600" loading="lazy">
+        <div class="project-body">
+          <p class="project-number">01 · THE WEB &amp; HTML</p>
+          <h2>Star Pizza</h2>
+          <p>The first HTML exercise: group the menu into pizzas, pasta and beverages, add opening hours, and link each small image to a large one.</p>
+          <ul class="tag-list" aria-label="Technologies used"><li>HTML</li></ul>
+          <a class="button" href="projects/01-html/star-pizza.html">View project</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="images/introduce-yourself.png" alt="Screenshot of the original HTML-only personal website" width="960" height="600" loading="lazy">
+        <div class="project-body">
+          <p class="project-number">01 · THE WEB &amp; HTML</p>
+          <h2>Introduce Yourself</h2>
+          <p>A simple three-page website with an introduction, background, interests, shared navigation and a table. This version uses HTML only.</p>
+          <ul class="tag-list" aria-label="Technologies used"><li>HTML</li><li>Tables</li></ul>
+          <a class="button" href="projects/01-html/introduce-yourself/index.html">View project</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="images/even-more-you.png" alt="Screenshot of the personal website after adding basic CSS" width="960" height="600" loading="lazy">
+        <div class="project-body">
+          <p class="project-number">02 · CSS</p>
+          <h2>Even More You</h2>
+          <p>The same personal website styled with colours, fonts, borders, spacing, a styled table and CSS custom properties.</p>
+          <ul class="tag-list" aria-label="Technologies used"><li>HTML</li><li>CSS</li></ul>
+          <a class="button" href="projects/02-css/personal-site/index.html">View project</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="images/css-zen-garden.png" alt="Screenshot of the CSS Zen Garden styling exercise" width="960" height="600" loading="lazy">
+        <div class="project-body">
+          <p class="project-number">02 · CSS</p>
+          <h2>CSS Zen Garden</h2>
+          <p>A new stylesheet for the official Zen Garden example. The supplied HTML is preserved, while CSS changes its colours, typography and spacing.</p>
+          <ul class="tag-list" aria-label="Technologies used"><li>HTML</li><li>CSS</li></ul>
+          <a class="button" href="projects/02-css/zen-garden/index.html">View project</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="images/eco-bottle.png" alt="Screenshot of the responsive EcoBottle exercise" width="960" height="600" loading="lazy">
+        <div class="project-body">
+          <p class="project-number">03 · LAYOUT</p>
+          <h2>EcoBottle</h2>
+          <p>The supplied EcoBottle page with three responsiveness fixes: a 1000px text limit, a flexible banner and the viewport meta tag.</p>
+          <ul class="tag-list" aria-label="Technologies used"><li>HTML</li><li>CSS</li></ul>
+          <a class="button" href="projects/03-layout/eco-bottle.html">View project</a>
+        </div>
+      </article>
+      <article class="project-card">
+        <img src="images/layout-exercises.png" alt="Screenshot of the layout exercise collection" width="960" height="600" loading="lazy">
+        <div class="project-body">
+          <p class="project-number">03 · LAYOUT</p>
+          <h2>Layout Exercises</h2>
+          <p>A collection of small exercises: wrapping tags, Flexbox navigation, a responsive grid, Holy Grail layout, image stacking and breakpoints.</p>
+          <ul class="tag-list" aria-label="Technologies used"><li>Flexbox</li><li>Grid</li><li>Media queries</li></ul>
+          <a class="button" href="projects/03-layout/index.html">View project</a>
+        </div>
+      </article>
+    </div>
+    <section class="wide-note portfolio-note" aria-labelledby="all-exercises-heading">
+      <h2 id="all-exercises-heading">All course exercises</h2>
+      <p class="muted">Each lesson has its own list of working examples, including the smaller exercises.</p>
+      <ul class="exercise-links">
+        <li><a href="projects/01-html/index.html">01 — The Web &amp; HTML</a></li>
+        <li><a href="projects/02-css/index.html">02 — CSS</a></li>
+        <li><a href="projects/03-layout/index.html">03 — Layout</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 Oleksandr Vrahaliev</p><p>Personal CV &amp; portfolio · WEB1</p></div></footer>
+</body>
+</html>
