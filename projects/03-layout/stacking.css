@@ -1,0 +1,57 @@
+body {
+            font: 1.2em / 1.5 sans-serif;
+            background: #eee;
+        }
+
+        .recipe {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            max-width: 350px;
+        }
+
+        p {
+            margin-bottom: 0px;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+            grid-area: stack;
+        }
+
+        .recipe h2 {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .tags {
+            list-style: none;
+            padding: 0px;
+            margin: 0.25rem 0.25rem 1rem 0.25rem;
+        }
+
+        .tags>li {
+            background: #e4ffe0;
+            color: #305a24;
+            padding: 0.25rem 0.75rem;
+            border-radius: 12px;
+            font-size: 0.85rem;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.25rem;
+            grid-area: stack;
+            align-items: center;
+            align-content: start;
+            z-index: 1;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-areas: "stack"
+        }

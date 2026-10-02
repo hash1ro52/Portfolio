@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Journey of a Web Request</title>
+</head>
+<body>
+  <header><h1>The Journey of a Web Request</h1><nav><a href="index.html">Back to HTML exercises</a></nav></header>
+  <main>
+    <p><a href="../../images/exercises/web-request.svg">Open the full diagram</a></p>
+    <img src="../../images/exercises/web-request.svg" width="350" alt="Diagram showing a browser, DNS resolver, internet routers, web server, HTTP request and HTML response">
+    <ol>
+      <li>The user enters a website URL in the browser.</li>
+      <li>DNS resolves the hostname to an IP address.</li>
+      <li>The browser connects to the server. HTTPS also establishes a secure TLS connection.</li>
+      <li>An HTTP request travels as packets through routers.</li>
+      <li>The server returns an HTTP response containing HTML.</li>
+      <li>The browser reads the HTML, requests further assets and renders the page.</li>
+    </ol>
+    <p>Cached DNS results and cached files can avoid some of these requests.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* 400px content + 100px padding + 20px border = 520px total width. */
+.box {
+  text-align: center;
+  border: 10px solid;
+  padding: 50px;
+  margin: 20px;
+  width: 400px;
+}
+.alternate {
+  box-sizing: border-box;
+  width: 520px;
+}

@@ -1,0 +1,14 @@
+html { font-size: 16px; }
+.outer {
+  width: 400px;
+  height: 200px;
+  background-color: lightblue;
+  padding: 20px;
+  font-size: 2em;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: coral;
+  font-size: 2rem;
+}

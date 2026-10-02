@@ -1,0 +1,11 @@
+nav {
+  font-family: sans-serif;
+  font-weight: bold;
+  background: #2196f3;
+}
+nav ul { margin: 0; padding: 0; }
+nav a { text-decoration: none; color: white; padding: 1rem; }
+nav a:hover { background: #1976d275; }
+nav a.active { background: #1976d2; }
+nav { text-align: center; padding-top: 1rem; padding-bottom: 1rem; }
+nav li { display: inline; margin: 0; padding: 0; }

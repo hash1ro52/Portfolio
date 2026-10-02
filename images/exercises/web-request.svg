@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title description">
+  <title id="title">How a browser loads a website</title>
+  <desc id="description">DNS resolves the hostname. The browser sends an HTTP request through routers. The server returns HTML, and the browser requests further assets and renders the page.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#365c7a"/></marker></defs>
+  <rect width="900" height="650" fill="#f4f7fc"/>
+  <g font-family="Arial, sans-serif" fill="#19344b" text-anchor="middle">
+    <text x="450" y="42" font-size="28" font-weight="bold">The Journey of a Web Request</text>
+    <rect x="45" y="95" width="240" height="90" rx="12" fill="#dcecff"/>
+    <text x="165" y="130" font-size="22">Browser</text><text x="165" y="158" font-size="16">1. Enter a website URL</text>
+    <rect x="575" y="95" width="280" height="90" rx="12" fill="#fff0d9"/>
+    <text x="715" y="130" font-size="22">DNS resolver</text><text x="715" y="158" font-size="16">Find the server's IP address</text>
+    <path d="M290 120 H565" stroke="#365c7a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="425" y="106" font-size="15">2. DNS lookup</text>
+    <path d="M570 165 H295" stroke="#365c7a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="425" y="193" font-size="15">3. IP address</text>
+    <rect x="45" y="270" width="240" height="90" rx="12" fill="#dcecff"/>
+    <text x="165" y="308" font-size="22">Browser</text><text x="165" y="338" font-size="16">Connect to the server</text>
+    <rect x="345" y="270" width="210" height="90" rx="12" fill="#e1f4e0"/>
+    <text x="450" y="307" font-size="22">Internet routers</text><text x="450" y="337" font-size="16">Forward packets</text>
+    <rect x="615" y="270" width="240" height="90" rx="12" fill="#ffe3df"/>
+    <text x="735" y="308" font-size="22">Web server</text><text x="735" y="338" font-size="16">Process the request</text>
+    <path d="M165 190 V255" stroke="#365c7a" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M290 290 H333 M560 290 H605" stroke="#365c7a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="450" y="253" font-size="16">4. HTTP request (HTTPS uses TLS)</text>
+    <path d="M610 350 H565 M340 350 H295" stroke="#365c7a" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="450" y="392" font-size="16">5. HTTP response containing HTML</text>
+    <path d="M165 365 V435" stroke="#365c7a" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="45" y="445" width="810" height="100" rx="12" fill="#dcecff"/>
+    <text x="450" y="483" font-size="22">6. Browser reads the HTML</text>
+    <text x="450" y="515" font-size="18">Requests CSS, images and other assets, then renders the page</text>
+    <text x="450" y="590" font-size="16">Each additional asset can require another HTTP request.</text>
+    <text x="450" y="616" font-size="16">Cached DNS answers and files can shorten the process.</text>
+  </g>
+</svg>
